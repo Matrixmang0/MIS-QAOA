@@ -23,7 +23,7 @@ This repository contains Python code for solving the Maximum Independent Set (MI
 2. Navigate to the project directory:
 
     ```bash
-    cd quantum-mis-solver
+    cd MIS-QAOA
     ```
 
 3. Create a virtual environment (optional but recommended):
@@ -50,29 +50,6 @@ This repository contains Python code for solving the Maximum Independent Set (MI
 
     ```bash
     pip install -r requirements.txt
-    ```
-
-## Usage
-
-1. Generate graphs:
-
-    ```bash
-    # Example: Generating a graph with 5 nodes
-    python generate_graph.py --nodes 5 --output graph.gml
-    ```
-
-2. Run experiments:
-
-    ```bash
-    # Example: Running QAOA experiment on a graph
-    python run_experiment.py --algorithm qaoa --graph graph.gml
-    ```
-
-3. Analyze results:
-
-    ```bash
-    # Example: Analyzing results from experiment
-    python analyze_results.py --experiment results.csv
     ```
 
 ## Contributing
